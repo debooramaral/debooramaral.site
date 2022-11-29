@@ -1,0 +1,318 @@
+@charset "UTF-8";
+
+/*TODAS AS DEMAIS MIDIAS*/
+
+/*Typical Device Breakpoints
+    Pequenas telas: até 600px 
+    Celular: min width 320 até max-windth 480px / 600 até 768 guanabara
+    Tablet: min-width 481 até max-windth 768px / 768 até 992 guanabara
+    Laptop: min-width 769 até max-windth 1023px / 992 até 1200 guanabara
+    Desktop: min-width 1024 até max-windth 1200px
+    TV: min-width 1201px
+    Grandes telas: acima de 1200px
+*/
+
+@media impressora {
+    main{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black; 
+        border: 2px solid black;
+    }
+}
+
+/*como no css de estilo usamos medidas pequenas para o mobile first, aqui ja aumentamos*/
+
+@media screen and (min-width:768px) and (max-width: 992px){ /*TABLET*/
+
+    .imagem-cabeçalho{
+        margin: 0;
+    }
+    .imagem-cabeçalho img{
+        height: 80%;
+        width: 80%;
+    }
+    .overlay-content{
+        top: 20%;
+        margin-top: 15px;
+    }
+    .overlay a{
+        font-size: 25px;
+        padding: 2%;
+    }
+    .overlay .closebtn{
+        font-size: 40px;
+    }
+    .menu{
+        font-size: 30px;
+        background: linear-gradient(to bottom, rgba(148, 148, 148, 0.233), white);
+    }
+    .apresentaçao blockquote{
+        font-size: 18px;
+    }
+    .apresentaçao cite{
+        font-size: 16px;
+    }
+    .legenda-img{
+        font-size: 14px;
+    }
+    .habilidades div{
+        display: inline-block;
+    }
+    .hab img{
+        width: 250px;
+        height: 250px;
+    }
+    .img-projeto{
+        width: 350px;;
+        height: 150px;
+    }
+    .img-retrato{
+        width: 100px;
+        height: 200px;
+    }
+    .pro div{
+        display: flex;
+        flex-direction: row;
+    }
+    .curriculo a{
+        font-size: 1rem;
+    }
+    footer{
+        background: linear-gradient(to top, rgba(148, 148, 148, 0.233), white);
+    }
+
+    /*modal do cfbcursos*/
+    .legenda_e_img{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+    }
+    .legenda_e_img p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .modalconteudo{
+        max-width: 650px;
+        margin: 5px;
+    }
+    #tituloimg{
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*maquina escrever*/
+    .frase{
+        font-size: 25px;
+    }
+    .animate-text{
+        animation-timing-function: steps(6);
+        animation-duration: 5s;
+    }
+    @keyframes digita{
+        from{
+            width: 650px;
+            color: black;
+        }
+        to{
+            width: 400px;
+            color: gray;
+        }
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
+
+    .imagem-cabeçalho{
+        margin: 0;
+    }
+    .imagem-cabeçalho img{
+        height: 80%;
+        width: 80%;
+    }
+    .overlay-content{
+        top: 20%;
+        margin-top: 25px;
+    }
+    .overlay a{
+        font-size: 30px;
+        padding: 2%;
+    }
+    .overlay .closebtn{
+        font-size: 50px;
+    }
+    .menu{
+        font-size: 30px;
+        background: linear-gradient(to bottom, rgba(252, 207, 207, 0.233), white);
+    }
+    .apresentaçao blockquote{
+        font-size: 20px;
+    }
+    .apresentaçao cite{
+        font-size: 18px;
+    }
+    .legenda-img{
+        font-size: 16px;
+    }
+    .habilidades div{
+        display: inline-block;
+    }
+    .hab img{
+        width: 250px;
+        height: 250px;
+    }
+    .img-projeto{
+        width: 400px;;
+        height: 200px;
+    }
+    .img-retrato{
+        width: 200px;
+        height: 400px;
+    }
+    .pro div{
+        display: flex;
+        flex-direction: row;
+    }
+    .curriculo a{
+        font-size: 1.2rem;
+    }
+    footer{
+        background: linear-gradient(to top, rgba(252, 207, 207, 0.233), white);
+    }
+
+    /*modal do cfbcursos*/
+    .legenda_e_img{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+    }
+    .legenda_e_img p{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .modalconteudo{
+        max-width: 750px;
+        margin: 5px;
+    }
+    #tituloimg{
+        font-size: 25px;
+        padding: 10px;
+    }
+    /*maquina escrever*/
+    .frase{
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .animate-text{
+        animation-timing-function: steps(25);
+        animation-duration: 5s;
+    }
+    @keyframes digita{
+        from{
+            width: 0;
+            color: black;
+        }
+        to{
+            width: 50em;
+            color: gray;
+        }
+    }
+}
+@media screen and (min-width: 1200px){ /*GRANDE TELAS*/
+
+    .imagem-cabeçalho{
+        margin: 0;
+    }
+    .imagem-cabeçalho img{
+        height: 80%;
+        width: 80%;
+    }
+    .overlay-content{
+        top: 15%;
+        margin-top: 50px;
+    }
+    .overlay a{
+        padding: 2%;
+        font-size: 30px;
+    }
+    .overlay .closebtn{
+        font-size: 60px;
+    }
+    .menu{
+        font-size: 35px;
+        background: linear-gradient(to bottom, rgba(219, 171, 171, 0.233), white);
+    }
+    .apresentaçao blockquote{
+        font-size: 20px;
+    }
+    .apresentaçao cite{
+        font-size: 18px;
+    }
+    .legenda-img{
+        font-size: 16px;
+    }
+    .habilidades div{
+        display: inline-block;
+    }
+    .hab img{
+        width: 300px;
+        height: 300px;
+    }
+    .img-projeto{
+        width: 500px;;
+        height: 300px;
+    }
+    .img-retrato{
+        width: 250px;
+        height: 500px;
+    }
+    .pro div{
+        display: flex;
+        flex-direction: row;
+    }
+    .curriculo a{
+        font-size: 1.5rem;
+    }
+    footer{
+        background: linear-gradient(to top, rgba(219, 171, 171, 0.233), white);
+    }
+
+    /*modal do cfbcursos*/
+    .legenda_e_img{
+        display: flex;
+        align-items: center;
+        text-align: right;
+        margin: 50px;
+    }
+    .legenda_e_img p{
+        font-size: 25px;
+    }
+    .modalconteudo{
+        display: block;
+        max-width: 800px;
+    }
+    #tituloimg{
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    /*maquina escrever - ORIGINAL*/
+    .frase{
+        font-size: 30px;
+        white-space: nowrap;
+    }
+    .animate-text{
+        animation-timing-function: steps(25);
+        animation-duration: 5s;
+    }
+    @keyframes digita{
+        from{
+            width: 0;
+            color: black;
+        }
+        to{
+            width: 50em;
+            color: gray;
+        }
+    }
+}

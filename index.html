@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--autor da página, propriedades-->
+    <meta name="author" content="Débora Amaral"> 
+    <!--descrição na pesquisa do google, abaixo do titulo-->
+    <meta name="descripton" content="um website como porfifólio da Débora Amaral ♥">
+    <!--o que fazer com o robo do google-->
+    <meta name="robots" content="index, follow">
+    <!--icone da pagina-->
+    <link rel="shortcut icon" href="img/LOGO - oficial.bmp" type="image/x-icon">
+    <!--estilo-->
+    <link rel="stylesheet" href="estilos/estilo.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+    <!--fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- icones FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4535497667.js" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="script.js"></script>
+    <title>@debooramaral</title>
+</head>
+<body>
+    <header>
+        <div id="myNav" class="overlay">
+            <!-- botão de fechar -->
+            <a href="javascript: void(o)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- itens do menu -->
+            <div class="overlay-content">
+                <a href="#"><i class="fa-solid fa-house"></i> Inicio</a>
+                <a href="#"><i class="fa-solid fa-address-card"></i> Sobre</a>
+                <a href="#"><i class="fa-solid fa-laptop-file"></i> Projetos</a>
+                <a href="#"><i class="fa-solid fa-address-book"></i> Contato</a>
+            </div>
+        </div>
+        <div class="menu" onclick="openNav()">&#9776</div>
+        <div class="imagem-cabeçalho" id="main-img">
+            <img src="img/wordcloud 1.png"  width="290px" height="190px" alt="img-capa">
+        </div> 
+    </header>
+    
+    <main>
+        <section class="apresentaçao">
+            <p class="frase animate-text">O insucesso é apenas uma oportunidade para recomeçar com mais inteligência</p>
+            <p class="autor animate-text2" style="text-align:right"><i>Henry Ford</i></cite>
+        </section>  
+    
+        <section class="softskills">
+            <h2>Habilidades Interpessoais</h2>
+            
+            <div class="habilidades">
+                <div class="hab">
+                    <p>Organização</p> 
+                </div>
+                <div class="hab">
+                    <p>Gestão de Tempo</p>
+                </div>
+                <div class="hab">
+                    <p>Comunicação</p>
+                </div>
+                <div class="hab">
+                    <p>Liderança</p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="projetos">
+            <h2>Projetos</h2>
+
+            <img src="projetos/manualhubkey.png" alt="Manual Hub Key" id="imagem1" width="400" height="250" onclick="clique(this)">
+            <img src="projetos/sitesenac-frontend.jpg" alt="Site do Curso de FRONTEND" id="imagem2" width="150" height="300" onclick="clique(this)">
+            <img src="projetos/meuapp-minhaterapia.png" alt="MeuAPP - Desenvolvimento MOBILE" id="imagem3" width="450" height="250" onclick="clique(this)">
+            <img src="projetos/linktree.jpeg" alt="Link para Instagram" id="imagem4" width="150" height="300" onclick="clique(this)">
+            <img src="projetos/portifolio1.JPG" alt="Portifolio - Desenvolvimento WEB" id="imagem5" width="400" height="250" onclick="clique(this)">
+            <img src="projetos/jera.jpg" alt="Controle de Estoque da Jera - Dia da Entrega" id="imagem7" width="150" height="300" onclick="clique(this)">
+            <img src="projetos/requisitosjera.png" alt="Documento de Requisitos da Jera" id="imagem6" width="450" height="250" onclick="clique(this)">
+            
+            <div id="janelamodal" class="modalvisual">
+                <span class="fecharmodal">&times;</span>
+                <div id="tituloimg"></div>
+                <div class="legenda_e_img">
+                    <div>
+                        <img id="imgmodal" class="modalconteudo">
+                    </div>
+                    <div id="imgdescricao" class="descricaoimg">
+                        <p>Descrição: </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    
+        <section class="curriculo">
+            <a href="https://www.linkedin.com/in/debooramaral/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/debooramaral"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.instagram.com/debooramaral/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5567993440847&text=%22Ol%C3%A1,%20eu%20vim%20l%C3%A1%20do%20seu%20site%20:)%22"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>2022 &copy; <strong>Débora Santos Amaral</strong></p>
+    </footer>
+</body>
+</html>
