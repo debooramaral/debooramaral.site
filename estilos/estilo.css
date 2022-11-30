@@ -197,12 +197,6 @@ footer{
     background: linear-gradient(to top, rgba(94, 94, 94, 0.233), white);
 }
 /*SOBRE MIM*/
-.sobremim{
-    /* background-image: url(https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    background-size: 100vw 100vh; */
-    background-repeat: no-repeat;
-    /* opacity: 0.6; */
-}
 .container h1{
     color: black;
     padding: 2%;
@@ -215,4 +209,35 @@ footer{
 .content h4{
     padding: 2%;
     color: brown;
+}
+
+/*PROJETOS*/
+.projeto1 h3{
+    font-size: 30px;
+    margin: 1%;
+}
+.projeto1 a{
+    text-decoration: none;
+    color: brown;
+}
+.projeto1 a:hover{
+    font-weight: bold;
+    color: gray;
+}
+.projeto1 p{
+    padding: 0 20%;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 1%;
+}
+.imagensprojeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagensprojeto img{
+    width: 30%;
+    height: 20%;
+    margin: 10px;
 }
