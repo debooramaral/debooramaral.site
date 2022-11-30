@@ -194,5 +194,25 @@ header{
 footer{
     margin-top: 1%;
     text-align: center;
-    background: linear-gradient(to top, rgba(94, 94, 94, 0.233), red);
+    background: linear-gradient(to top, rgba(94, 94, 94, 0.233), white);
+}
+/*SOBRE MIM*/
+.sobremim{
+    /* background-image: url(https://images.unsplash.com/photo-1549605659-32d82da3a059?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 100vw 100vh; */
+    background-repeat: no-repeat;
+    /* opacity: 0.6; */
+}
+.container h1{
+    color: black;
+    padding: 2%;
+}
+.content p{
+    color: black;
+    padding: 0 6%;
+    font-size: 20px;
+}
+.content h4{
+    padding: 2%;
+    color: brown;
 }
