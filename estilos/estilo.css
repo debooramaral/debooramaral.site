@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Versão Mobile First - 300x800 +- */
+/*Versão Mobile First - 400x800 +- */
 
 *{
     margin: 0;
@@ -36,7 +36,7 @@ header{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     right: 0;
     top: 0;
     background-color: brown;
@@ -106,14 +106,15 @@ header{
 }
 @keyframes digita{
     from{
-        width: 500px;
+        width: 400px;
         color: black;
     }
     to{
-        width: 400px;
+        width: 350px;
         color: gray;
     }
 }
+
 .softskills h2{
     margin: 1%;
 }
@@ -124,7 +125,10 @@ header{
 }
 .hab{
     padding: 15px;
+    margin: 1%;
+    display: contents;
 }
+
 .projetos h2{
     margin: 1%;
 }
@@ -179,14 +183,44 @@ header{
     font-size: 20px;
     padding: 10px;
 }
-.curriculo{
-    margin-top: 1%;
+/*SOBRE MIM - tela pequena / mobile */
+.container{
+    margin: 5%;
 }
+.container h1{
+    margin: 1%;
+}
+
+/*PROJETOS - tela pequena / mobile */
+.projeto1{
+    margin: 1%;
+}
+.projeto1 h3{
+    margin: 1.5%;
+}
+.projeto1 p{
+    text-align: justify;
+}
+.projeto1 a{
+    text-decoration: none;
+}
+.descricao-projeto{
+    margin: 2%;
+}
+.imagensprojeto{
+    margin: 1.5%;
+}
+.imagensprojeto img{
+    width: 300px;
+    height: 150px;
+}
+
+
 .curriculo a{
     text-decoration: none;
     cursor: pointer;
     padding: 0px 5px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .curriculo i{
     color: brown;
@@ -195,49 +229,4 @@ footer{
     margin-top: 1%;
     text-align: center;
     background: linear-gradient(to top, rgba(94, 94, 94, 0.233), white);
-}
-/*SOBRE MIM*/
-.container h1{
-    color: black;
-    padding: 2%;
-}
-.content p{
-    color: black;
-    padding: 0 6%;
-    font-size: 20px;
-}
-.content h4{
-    padding: 2%;
-    color: brown;
-}
-
-/*PROJETOS*/
-.projeto1 h3{
-    font-size: 30px;
-    margin: 1%;
-}
-.projeto1 a{
-    text-decoration: none;
-    color: brown;
-}
-.projeto1 a:hover{
-    font-weight: bold;
-    color: gray;
-}
-.projeto1 p{
-    padding: 0 20%;
-    font-size: 20px;
-    text-align: justify;
-    text-indent: 2em;
-    margin: 1%;
-}
-.imagensprojeto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imagensprojeto img{
-    width: 30%;
-    height: 20%;
-    margin: 10px;
 }
