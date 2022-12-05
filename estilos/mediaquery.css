@@ -339,20 +339,20 @@
         color: brown;
     }
     /*PROJETOS*/
-    .projeto1 h3{
+    .projeto1 h3, .projeto2 h3{
         font-size: 30px;
         margin: 1%;
     }
-    .projeto1 a{
+    .projeto1 a, .projeto2 a{
         text-decoration: none;
         color: brown;
         font-size: 25px;
     }
-    .projeto1 a:hover{
+    .projeto1 a:hover, .projeto2 a:hover{
         font-weight: bold;
         color: gray;
     }
-    .projeto1 p{
+    .projeto1 p, .projeto2 p{
         padding: 0 10%;
         font-size: 20px;
         text-align: justify;
