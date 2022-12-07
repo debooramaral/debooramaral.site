@@ -211,14 +211,22 @@ header{
 .imagensprojeto{
     margin: 1.5%;
 }
-.imagensprojeto img{
+.projeto1 img{
     width: 300px;
     height: 150px;
 }
-/* .projeto2 img{
+.slicecabecalho{
     width: 350px;
-    height: 150px;
-} */
+    height: 70px;
+} 
+.slicematricula{
+    width: 350px;
+    height: 60px;
+}
+.slicecategorias{
+    width: 350px;
+    height: 100px;
+}
 
 
 .curriculo a{
