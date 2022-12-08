@@ -195,11 +195,12 @@ header{
 .projeto1{
     margin: 1%;
 }
-.projeto1 h3, .projeto2 h3{
+.projeto1 h3, .projeto2 h3, .projeto3 h3{
     margin: 1.5%;
 }
-.projeto1 p, .projeto2 p{
+.projeto1 p, .projeto2 p, .projeto3 p{
     text-align: justify;
+    text-indent: 2em;
 }
 .projeto1 a, .projeto2 a{
     text-decoration: none;
@@ -212,8 +213,8 @@ header{
     margin: 1.5%;
 }
 .projeto1 img{
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
 }
 .slicecabecalho{
     width: 350px;
@@ -226,6 +227,20 @@ header{
 .slicecategorias{
     width: 350px;
     height: 100px;
+}
+.meuapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    padding: 1%;
+}
+.app, .videoapp{
+    width: 130px;
+    height: 100%;
+}
+.app img{
+    margin: 1%;
 }
 
 
