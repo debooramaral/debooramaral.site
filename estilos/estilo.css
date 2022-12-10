@@ -231,6 +231,7 @@ header{
 .meuapp{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     width: 400px;
     padding: 1%;
@@ -238,10 +239,10 @@ header{
 .app, .videoapp{
     width: 130px;
     height: 100%;
+    padding: 5%;
 }
-.app img{
-    margin: 1%;
-}
+
+
 
 
 .curriculo a{
