@@ -233,7 +233,6 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 400px;
     padding: 1%;
 }
 .app, .videoapp{
