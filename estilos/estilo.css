@@ -16,7 +16,8 @@ main{
     text-align: center;
     font-size: 18px;
 }
-
+body{
+}
 header{
     overflow: hidden;
 }
@@ -26,12 +27,11 @@ header{
 .imagem-cabeçalho img{
     display: block;
     margin: auto;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 /* W3Scholl */
-
 .overlay{
     height: 100%;
     width: 0;
@@ -114,7 +114,6 @@ header{
         color: gray;
     }
 }
-
 .softskills h2{
     margin: 1%;
 }
@@ -128,7 +127,6 @@ header{
     margin: 1%;
     display: contents;
 }
-
 .projetos h2{
     margin: 1%;
 }
@@ -195,14 +193,14 @@ header{
 .projeto1{
     margin: 1%;
 }
-.projeto1 h3, .projeto2 h3, .projeto3 h3{
+.projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3{
     margin: 1.5%;
 }
-.projeto1 p, .projeto2 p, .projeto3 p{
+.projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p{
     text-align: justify;
     text-indent: 2em;
 }
-.projeto1 a, .projeto2 a{
+.projeto1 a, .projeto2 a, .projeto4 a{
     text-decoration: none;
     color: brown;
 }
@@ -217,16 +215,16 @@ header{
     height: 200px;
 }
 .slicecabecalho{
-    width: 350px;
-    height: 70px;
+    width: 450px;
+    height: 100px;
 } 
 .slicematricula{
-    width: 350px;
-    height: 60px;
+    width: 450px;
+    height: 70px;
 }
 .slicecategorias{
-    width: 350px;
-    height: 100px;
+    width: 450px;
+    height: 140px;
 }
 .meuapp{
     display: flex;
@@ -239,7 +237,10 @@ header{
     height: 100%;
     padding: 3%;
 }
-
+.linktree{
+    width: 450px;
+    height: 250px;
+} 
 
 .curriculo a{
     text-decoration: none;

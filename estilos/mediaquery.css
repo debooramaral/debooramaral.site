@@ -25,14 +25,13 @@
 
 @media screen and (min-width:768px) and (max-width: 992px){ /*TABLET*/
     body{
-        
     }
     .imagem-cabeçalho{
         margin: 0;
     }
     .imagem-cabeçalho img{
-        height: 80%;
-        width: 80%;
+        height: 60%;
+        width: 60%;
     }
     .overlay-content{
         top: 20%;
@@ -55,16 +54,6 @@
     .apresentaçao cite{
         font-size: 16px;
     }
-    .legenda-img{
-        font-size: 14px;
-    }
-    .habilidades div{
-        display: inline-block;
-    }
-    .hab img{
-        width: 250px;
-        height: 250px;
-    }
     .img-projeto{
         width: 350px;;
         height: 150px;
@@ -77,9 +66,78 @@
         display: flex;
         flex-direction: row;
     }
-    /*SOBRE MIM*/
+     /*SOBRE MIM*/
+     .container h1{
+        color: black;
+    }
+    .content p{
+        color: black;
+        font-size: 20px;
+    }
+    .content h4{
+        padding: 1%;
+        color: brown;
+        font-size: 20px;
+    }
     /*PROJETOS*/
-
+    .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto3 h3{
+        font-size: 25px;
+    }
+    .projeto1 a, .projeto2 a, .projeto4 a{
+        text-decoration: none;
+        color: brown;
+        font-size: 25px;
+    }
+    .descricao-projeto div{
+        margin: 2%
+    }
+    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover{
+        font-weight: bold;
+        color: gray;
+    }
+    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p{
+        padding: 0 1%;
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 2em;
+    }
+    .imagensprojeto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projeto1 img{
+        width: 95%;
+        height: 40%;
+    }
+    .slices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slices img{
+        padding: 1%;
+    }
+    .slicecabecalho{
+        width: 500px;
+        height: 130px;
+    } 
+    .slicematricula{
+        width: 500px;
+        height: 90px;
+    }
+    .slicecategorias{
+        width: 450px;
+        height: 130px;
+    }
+    .meuapp img, .meuapp video{
+        height: 400px;
+        width: 200px;
+        padding: 3%;
+    }
+    .linktree{
+        width: 600px;
+        height: 300px;
+    } 
     .curriculo a{
         font-size: 2rem;
     }
@@ -127,14 +185,13 @@
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
     body{
-        
     }
     .imagem-cabeçalho{
         margin: 0;
     }
     .imagem-cabeçalho img{
-        height: 80%;
-        width: 80%;
+        height: 60%;
+        width: 60%;
     }
     .overlay-content{
         top: 20%;
@@ -157,16 +214,6 @@
     .apresentaçao cite{
         font-size: 18px;
     }
-    .legenda-img{
-        font-size: 16px;
-    }
-    .habilidades div{
-        display: inline-block;
-    }
-    .hab img{
-        width: 250px;
-        height: 250px;
-    }
     .img-projeto{
         width: 400px;;
         height: 200px;
@@ -180,12 +227,11 @@
         flex-direction: row;
     }
     .curriculo a{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     footer{
         background: linear-gradient(to top, rgba(252, 207, 207, 0.233), white);
     }
-
     /*modal do cfbcursos*/
     .legenda_e_img{
         display: block;
@@ -224,17 +270,89 @@
             color: gray;
         }
     }
+    /*SOBRE MIM*/
+    .container h1{
+        color: black;
+    }
+    .content p{
+        color: black;
+        padding: 0 1%;
+        font-size: 20px;
+    }
+    .content h4{
+        padding: 1%;
+        color: brown;
+        font-size: 20px;
+    }
+    /*PROJETOS*/
+    .projeto1 h3, .projeto2 h3, .projeto3 h3. .projeto4 h3{
+        font-size: 25px;
+    }
+    .projeto1 a, .projeto2 a, .projeto4 a{
+        text-decoration: none;
+        color: brown;
+        font-size: 25px;
+    }
+    .descricao-projeto div{
+        margin: 2%
+    }
+    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover{
+        font-weight: bold;
+        color: gray;
+    }
+    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p{
+        padding: 0 1%;
+        font-size: 20px;
+        text-align: justify;
+        text-indent: 2em;
+    }
+    .imagensprojeto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projeto1 img{
+        width: 95%;
+        height: 40%;
+    }
+    .slices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slices img{
+        padding: 1%;
+    }
+    .slicecabecalho{
+        width: 500px;
+        height: 130px;
+    } 
+    .slicematricula{
+        width: 500px;
+        height: 90px;
+    }
+    .slicecategorias{
+        width: 450px;
+        height: 130px;
+    }
+    .meuapp img, .meuapp video{
+        height: 400px;
+        width: 200px;
+        padding: 3%;
+    }
+    .linktree{
+        width: 500px;
+        height: 300px
+    } 
 }
 @media screen and (min-width: 1200px){ /*GRANDE TELAS*/
     body{
-        
     }
     .imagem-cabeçalho{
         margin: 0;
     }
     .imagem-cabeçalho img{
-        height: 80%;
-        width: 80%;
+        height: 60%;
+        width: 65%;
     }
     .overlay-content{
         top: 15%;
@@ -257,16 +375,6 @@
     .apresentaçao cite{
         font-size: 18px;
     }
-    .legenda-img{
-        font-size: 16px;
-    }
-    .habilidades div{
-        display: inline-block;
-    }
-    .hab img{
-        width: 300px;
-        height: 300px;
-    }
     .img-projeto{
         width: 500px;;
         height: 300px;
@@ -280,12 +388,17 @@
         flex-direction: row;
     }
     .curriculo a{
-        font-size: 1.5rem;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0px 5px;
+        font-size: 4rem;
+    }
+    .curriculo i{
+        color: brown;
     }
     footer{
-        background: linear-gradient(to top, rgba(219, 171, 171, 0.233), white);
+        background: linear-gradient(to top, rgba(94, 94, 94, 0.233), white);
     }
-
     /*modal do cfbcursos*/
     .legenda_e_img{
         display: flex;
@@ -304,7 +417,6 @@
         font-size: 25px;
         padding: 20px;
     }
-
     /*maquina escrever - ORIGINAL*/
     .frase{
         font-size: 30px;
@@ -339,20 +451,20 @@
         color: brown;
     }
     /*PROJETOS*/
-    .projeto1 h3, .projeto2 h3{
+    .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3{
         font-size: 30px;
         margin: 1%;
     }
-    .projeto1 a, .projeto2 a{
+    .projeto1 a, .projeto2 a, .projeto4 a{
         text-decoration: none;
         color: brown;
         font-size: 25px;
     }
-    .projeto1 a:hover, .projeto2 a:hover{
+    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover{
         font-weight: bold;
         color: gray;
     }
-    .projeto1 p, .projeto2 p{
+    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p{
         padding: 0 10%;
         font-size: 20px;
         text-align: justify;
@@ -363,23 +475,42 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 1%;
     }
-    .imagensprojeto img{
+    .projeto1 img{
         width: 95%;
         height: 40%;
     }
-    .curriculo a{
-        text-decoration: none;
-        cursor: pointer;
-        padding: 0px 5px;
-        font-size: 3rem;
+    .slices{
+        display: flex;
+        flex-wrap: wrap;
     }
-    .curriculo i{
-        color: brown;
+    .slices img{
+        padding: 1%;
     }
-    footer{
-        text-align: center;
-        background: linear-gradient(to top, rgba(94, 94, 94, 0.233), white);
+    .slicecabecalho{
+        width: 600px;
+        height: 190px;
+    } 
+    .slicematricula{
+        width: 600px;
+        height: 110px;
     }
+    .slicecategorias{
+        width: 550px;
+        height: 190px;
+    }
+    .meuapp img, .meuapp video{
+        height: 750px;
+        width: 350px;
+        padding: 3%;
+    }
+    .meuapp video{
+        height: 750px;
+        width: 400px;
+    } 
+    .linktree{
+        width: 800px;
+        height: 400px
+    }  
+    
 }
