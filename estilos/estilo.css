@@ -51,7 +51,7 @@ header{
     margin-top: 25px;
 }
 .overlay a{
-    padding: 2%;
+    padding: 5%;
     text-decoration: none;
     font-size: 20px;
     color: ghostwhite;
@@ -193,20 +193,27 @@ header{
 .projeto1{
     margin: 1%;
 }
-.projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3, .projeto5 h3{
+.projeto1 h3, .projeto2 h3, .projeto3 h3, 
+.projeto4 h3, .projeto5 h3, .projeto6 h3{
     margin: 1.5%;
 }
-.projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p, .projeto5 p{
+.projeto1 p, .projeto2 p, .projeto3 p, 
+.projeto4 p, .projeto5 p, .projeto6 p{
     text-align: justify;
     text-indent: 2em;
     padding: 3%;
 }
-.projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a{
+.projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a, .projeto6 a{
     text-decoration: none;
     color: brown;
 }
-.descricao-projeto div, .link-pro1, .link-pro2{
+.descricao-projeto div, .link-pro1, .link-pro2, .linksjera{
     margin: 1%;
+}
+.linksjera{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .imagensprojeto{
     margin: 1.5%;
@@ -246,6 +253,11 @@ header{
     width: 350px;
     height: 200px;
 } 
+.proj6 img{
+    width: 350px;
+    height: 200px;
+    padding: 1%;
+}
 .curriculo a{
     text-decoration: none;
     cursor: pointer;

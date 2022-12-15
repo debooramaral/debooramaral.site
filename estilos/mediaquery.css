@@ -39,7 +39,7 @@
     }
     .overlay a{
         font-size: 25px;
-        padding: 2%;
+        padding: 5%;
     }
     .overlay .closebtn{
         font-size: 40px;
@@ -72,9 +72,46 @@
     footer{
         background: linear-gradient(to top, rgba(148, 148, 148, 0.233), white);
     }
-     /*SOBRE MIM*/
-     .container h1{
-        color: black;
+    /*modal do cfbcursos*/
+    .legenda_e_img{
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+    }
+    /* .legenda_e_img p{
+        font-size: 20px;
+        padding: 10px;
+    } */
+    .modalconteudo{
+        max-width: 650px;
+        margin: 5px;
+    }
+    #tituloimg{
+        font-size: 20px;
+        padding: 10px;
+    }
+    /*maquina escrever*/
+    .frase{
+        font-size: 25px;
+    }
+    .animate-text{
+        animation-timing-function: steps(6);
+        animation-duration: 5s;
+    }
+    @keyframes digita{
+        from{
+            width: 650px;
+            color: black;
+        }
+        to{
+            width: 400px;
+            color: gray;
+        }
+    }
+    /*SOBRE MIM*/
+    .container h1{
+    color: black;
     }
     .content p{
         color: black;
@@ -86,22 +123,32 @@
         font-size: 20px;
     }
     /*PROJETOS*/
-    .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto3 h3, .projeto5 h3{
+    .projeto1 h3, .projeto2 h3, .projeto3 h3, 
+    .projeto4 h3, .projeto5 h3, .projeto6 h3{
         font-size: 25px;
     }
-    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a{
+    .projeto6 h3{
+        margin: 1%;
+    }
+    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a, .projeto6 a{
         text-decoration: none;
         color: brown;
         font-size: 25px;
     }
-    .descricao-projeto div, .link-pro1, .link-pro2{
+    .descricao-projeto div, .link-pro1, .link-pro2, .linksjera{
         margin: 1%
     }
-    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover, .projeto5 a:hover{
+    .linksjera{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover, .projeto5 a:hover, .projeto6 a:hover{
         font-weight: bold;
         color: gray;
     }
-    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p, .projeto5 p{
+    .projeto1 p, .projeto2 p, .projeto3 p, 
+    .projeto4 p, .projeto5 p, .projeto6 p{
         padding: 0 3%;
         font-size: 20px;
         text-align: justify;
@@ -118,7 +165,7 @@
         height: 200px;
         padding: 1%;
     }
-    .slices{
+    .slices, .proj6{
         display: flex;
         flex-wrap: wrap;
     }
@@ -150,46 +197,15 @@
         width: 650px;
         height: 300px;
     }
-    /*modal do cfbcursos*/
-    .legenda_e_img{
-        display: block;
-        align-items: center;
-        text-align: center;
-        margin: 10px;
-    }
-    .legenda_e_img p{
-        font-size: 20px;
-        padding: 10px;
-    }
-    .modalconteudo{
-        max-width: 650px;
-        margin: 5px;
-    }
-    #tituloimg{
-        font-size: 20px;
-        padding: 10px;
-    }
-    /*maquina escrever*/
-    .frase{
-        font-size: 25px;
-    }
-    .animate-text{
-        animation-timing-function: steps(6);
-        animation-duration: 5s;
-    }
-    @keyframes digita{
-        from{
-            width: 650px;
-            color: black;
-        }
-        to{
-            width: 400px;
-            color: gray;
-        }
+    .proj6 img{
+        width: 650px;
+        height: 400px;
+        padding: 1%;
     }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px){ /*DESKTOP*/
     body{
+        
     }
     .imagem-cabeçalho{
         margin: 0;
@@ -204,7 +220,7 @@
     }
     .overlay a{
         font-size: 30px;
-        padding: 2%;
+        padding: 3%;
     }
     .overlay .closebtn{
         font-size: 50px;
@@ -290,22 +306,32 @@
         font-size: 20px;
     }
     /*PROJETOS*/
-    .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3, .projeto5 h3{
+    .projeto1 h3, .projeto2 h3, .projeto3 h3, 
+    .projeto4 h3, .projeto5 h3, .projeto6 h3{
         font-size: 25px;
     }
-    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a{
+    .projeto6 h3{
+        margin: 1%;
+    }
+    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a, .projeto6 a{
         text-decoration: none;
         color: brown;
         font-size: 25px;
     }
-    .descricao-projeto div, .link-pro1, .link-pro2{
+    .descricao-projeto div, .link-pro1, .link-pro2, .linksjera{
         margin: 1%
     }
-    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover, .projeto5 a:hover{
+    .linksjera{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover, .projeto5 a:hover, .projeto6 a:hover{
         font-weight: bold;
         color: gray;
     }
-    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p, .projeto5 p{
+    .projeto1 p, .projeto2 p, .projeto3 p, 
+    .projeto4 p, .projeto5 p, .projeto6 p{
         padding: 0 3%;
         font-size: 20px;
         text-align: justify;
@@ -320,7 +346,7 @@
         width: 95%;
         height: 40%;
     }
-    .slices{
+    .slices, .proj6{
         display: flex;
         flex-wrap: wrap;
     }
@@ -352,9 +378,15 @@
         width: 500px;
         height: 300px;
     }
+    .proj6 img{
+        width: 500px;
+        height: 300px;
+        padding: 1%;
+    }
 }
 @media screen and (min-width: 1200px){ /*GRANDE TELAS*/
     body{
+       
     }
     .imagem-cabeçalho{
         margin: 0;
@@ -368,7 +400,7 @@
         margin-top: 50px;
     }
     .overlay a{
-        padding: 2%;
+        padding: 3%;
         font-size: 30px;
     }
     .overlay .closebtn{
@@ -419,7 +451,7 @@
     .legenda_e_img{
         display: flex;
         align-items: center;
-        text-align: right;
+        text-align: center;
         margin: 50px;
     }
     .legenda_e_img p{
@@ -467,20 +499,28 @@
         color: brown;
     }
     /*PROJETOS*/
-    .projeto1 h3, .projeto2 h3, .projeto3 h3, .projeto4 h3, .projeto5 h3{
+    .projeto1 h3, .projeto2 h3, .projeto3 h3, 
+    .projeto4 h3, .projeto5 h3, .projeto6 h3{
         font-size: 30px;
         margin: 1%;
     }
-    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a{
+    .projeto1 a, .projeto2 a, .projeto4 a, .projeto5 a, .projeto6 a{
         text-decoration: none;
         color: brown;
         font-size: 25px;
     }
-    .projeto1 a:hover, .projeto2 a:hover, .projeto4 a:hover, .projeto5 a:hover{
+    .projeto1 a:hover, .projeto2 a:hover, 
+    .projeto4 a:hover, .projeto5 a:hover, .projeto6 a:hover{
         font-weight: bold;
         color: gray;
     }
-    .projeto1 p, .projeto2 p, .projeto3 p, .projeto4 p, .projeto5 p{
+    .linksjera{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .projeto1 p, .projeto2 p, .projeto3 p, 
+    .projeto4 p, .projeto5 p, .projeto6 p{
         padding: 0 10%;
         font-size: 20px;
         text-align: justify;
@@ -496,7 +536,7 @@
         width: 95%;
         height: 40%;
     }
-    .slices{
+    .slices, .proj6{
         display: flex;
         flex-wrap: wrap;
     }
@@ -532,5 +572,9 @@
         width: 900px;
         height: 450px;
     }
-    
+    .proj6 img{
+        width: 600px;
+        height: 350px;
+        padding: 2%;
+    }
 }
