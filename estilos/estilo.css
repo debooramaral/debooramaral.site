@@ -258,6 +258,44 @@ header{
     height: 200px;
     padding: 1%;
 }
+/*Contato*/
+
+.contato{
+    margin: 1%;
+}
+.contato fieldset{
+    display: inline;
+    justify-content: center;
+    padding: 30px;
+}
+.contato legend{
+    padding: 0px 10px;
+    font-size: 25px;
+}
+.contato label{
+    font-size: 20px;
+    text-align: left;
+    margin: 5px;
+}
+.contato input{
+    padding: 5px;
+    outline: none;
+    width: 400px;
+    color: brown;
+    font-weight: bold;
+}
+.contato textarea{
+    outline: none;
+    padding: 10px;
+    color: brown;
+    font-weight: bold;
+}
+.dados, .msg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .curriculo a{
     text-decoration: none;
     cursor: pointer;
